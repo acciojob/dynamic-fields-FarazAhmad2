@@ -20,9 +20,7 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setData(inputs);
-    inputs.forEach(item=>{
-      console.log(`Name: ${item.name}, Age: ${item.age}`)
-    })
+    console.log(inputs);
   };
 
   const removeField = (index) => {
